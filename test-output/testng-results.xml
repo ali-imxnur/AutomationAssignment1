@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T04:08:19 IST" name="Default suite" finished-at="2024-11-25T04:08:33 IST" duration-ms="13849">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T04:08:19 IST" name="Default test" finished-at="2024-11-25T04:08:33 IST" duration-ms="13849">
+      <class name="testCasesAll.TestFitpeo">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:19 IST" name="beforeClass" finished-at="2024-11-25T04:08:24 IST" duration-ms="4763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="navigateHomepage()[pri:0, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:24 IST" name="navigateHomepage" finished-at="2024-11-25T04:08:29 IST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomepage -->
+        <test-method signature="navigateRevenueCalculatorPage()[pri:1, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:29 IST" name="navigateRevenueCalculatorPage" finished-at="2024-11-25T04:08:29 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateRevenueCalculatorPage -->
+        <test-method signature="scrollDownAndSetSlider()[pri:2, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:29 IST" name="scrollDownAndSetSlider" finished-at="2024-11-25T04:08:30 IST" depends-on-methods="testCasesAll.TestFitpeo.navigateRevenueCalculatorPage" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownAndSetSlider -->
+        <test-method signature="changeSliderValue()[pri:3, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:30 IST" name="changeSliderValue" finished-at="2024-11-25T04:08:31 IST" depends-on-methods="testCasesAll.TestFitpeo.scrollDownAndSetSlider" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeSliderValue -->
+        <test-method signature="scrollDownAndselectCheckboxes()[pri:4, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:31 IST" name="scrollDownAndselectCheckboxes" finished-at="2024-11-25T04:08:32 IST" depends-on-methods="testCasesAll.TestFitpeo.changeSliderValue" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownAndselectCheckboxes -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCasesAll.TestFitpeo@c730b35]" started-at="2024-11-25T04:08:32 IST" name="afterClass" finished-at="2024-11-25T04:08:33 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCasesAll.TestFitpeo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
